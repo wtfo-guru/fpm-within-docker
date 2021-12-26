@@ -1,8 +1,10 @@
 distro:
  - fwd-debian-stretch
+ - fwd-debian-buster
  - fwd-debian-bullseye
  - fwd-ubuntu-xenial
  - fwd-ubuntu-bionic
  - fwd-ubuntu-focal
+ - fwd-ubuntu-impish
  - fwd-centos-7
  - fwd-centos-8
