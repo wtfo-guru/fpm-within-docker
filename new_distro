@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cat << EOF
+see /home/jim/dev/packaging/fpm/apt-current/packaging/new_distro
+cp existing to new
+ 4972  sed -e 's/debian:buster/ubuntu:impish' fwd-debian-buster/Dockerfile > fwd-ubuntu-impish/Dockerfile
+ 4973  sed -e 's/debian:buster/ubuntu:impish/' fwd-debian-buster/Dockerfile > fwd-ubuntu-impish/Dockerfile
+ 4981  sed -i -e 's/buster/focal/' Dockerfile
+EOF
